@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#C62828</color>
+    <color name="colorAccent">#00aff0</color>
+
+    <color name="colorPrimaryGray">#424242</color>
+    <color name="colorPrimaryDarkGray">#212121</color>
+
+    <color name="blanco">#FFFFFF</color>
+
+    <color name="red">#aa4243</color>
+    <color name="dark_red">#842b2c</color>
+    <color name="more_dark_red">#451112</color>
+
+    <color name="text_color">#808080</color>
+    <color name="link_color">#aa4243</color>
+
+
+    <!-- colors -->
+    <color name="white">#FFF</color>
+    <color name="white80">#b4ffffff</color>
+
+
+    <!--SOCIALS -->
+    <color name="facebook">#3b5998</color>
+    <color name="ripple_facebook">#243a68</color>
+    <color name="twitter">#55acee</color>
+    <color name="ripplet_twitter">#3881b9</color>
+    <color name="github">#333333</color>
+    <color name="ripple_github">#0d0c0c</color>
+    <color name="instagram">#3f729b</color>
+    <color name="ripple_instagram">#2b5373</color>
+    <color name="linkedin">#0077b5</color>
+    <color name="ripple_linkedin">#085d89</color>
+    <color name="plus">#dc4e41</color>
+    <color name="ripple_plus">#a4352b</color>
+    <color name="youtube">#cd201f</color>
+    <color name="ripple_youtube">#9f1716</color>
+    <color name="aboutme">#00405d</color>
+    <color name="ripple_aboutme">#063348</color>
+    <color name="foursquare">#f94877</color>
+    <color name="ripple_foursquare">#c43057</color>
+    <color name="skype">#00aff0</color>
+    <color name="ripple_skype">#0e89b7</color>
+    <color name="telegram">#0088cc</color>
+    <color name="ripple_telegram">#096491</color>
+    <color name="tumblr">#0088cc</color>
+    <color name="ripple_tumblr">#066594</color>
+    <color name="vimeo">#162221</color>
+    <color name="ripple_vimeo">#0d1817</color>
+    <color name="whatsapp">#43d854</color>
+    <color name="ripple_whatsapp">#2c9b39</color>
+
+    <!-- Filter Bar -->
+    <color name="filter_bar_divider">#CECECE</color>
+    <color name="filter_bar_background">#EAEAEA</color>
+    <color name="filter_bar_text_color">#727272</color>
+    <color name="filter_bar_spinner_dropdown_text_color">#3C3C3C</color>
+
+    <!-- Navigation -->
+    <color name="navigation_background">@color/white</color>
+
+    <!-- Positions -->
+    <color name="positions_row_bg">#40FFFFFF</color>
+
+    <color name="abc_input_method_navigation_guard">@android:color/black</color>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="accent">#ffed2b75</color>
+    <color name="accent_material_dark">@color/material_deep_teal_200</color>
+    <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="audioNotificationBackgroundGradientEnd">#ff631e58</color>
+    <color name="audioNotificationBackgroundGradientStart">#ff123359</color>
+    <color name="background_floating_material_dark">#ff424242</color>
+    <color name="background_floating_material_light">#ffeeeeee</color>
+    <color name="background_material_dark">#ff303030</color>
+    <color name="background_material_light">#ffeeeeee</color>
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80000000</color>
+    <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light
+    </color>
+    <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark
+    </color>
+    <color name="bright_foreground_material_dark">@android:color/white</color>
+    <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="cardview_dark_background">#ff202020</color>
+    <color name="cardview_light_background">#fffafafa</color>
+    <color name="cardview_shadow_end_color">#03000000</color>
+    <color name="cardview_shadow_start_color">#37000000</color>
+    <color name="com_facebook_blue">#ff3b5998</color>
+    <color name="com_facebook_likeboxcountview_border_color">#ff6a7180</color>
+    <color name="com_facebook_likeboxcountview_text_color">#ff6a7180</color>
+    <color name="com_facebook_likebutton_text_color">#ffffffff</color>
+    <color name="com_facebook_likeview_text_color">#ff6a7180</color>
+    <color name="com_facebook_loginview_text_color">#ffffffff</color>
+    <color name="com_facebook_picker_search_bar_background">#fff5f5f7</color>
+    <color name="com_facebook_picker_search_bar_text">#ffbcbdc2</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#ff000000</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#ffffffff</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#ffa6aed7</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="common_dark_pressed">#22000000</color>
+    <color name="common_light_pressed">#22ffffff</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_signin_btn_light_text_default">#ff737373</color>
+    <color name="common_signin_btn_light_text_disabled">#ffaaaaaa</color>
+    <color name="common_signin_btn_light_text_focused">#ff737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
+    <color name="dim_foreground_disabled_material_light">#80323232</color>
+    <color name="dim_foreground_material_dark">#ffbebebe</color>
+    <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="divider">#ffb6b6b6</color>
+    <color name="fixture_block_divider">#ff909090</color>
+    <color name="fixture_text_completed">#ff5770a4</color>
+    <color name="gallery_background_98">#f2050811</color>
+    <color name="gallery_status_bar">#ff050811</color>
+    <color name="highlighted_text_material_dark">#6680cbc4</color>
+    <color name="highlighted_text_material_light">#66009688</color>
+    <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark
+    </color>
+    <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light
+    </color>
+    <color name="icons">#ffffffff</color>
+    <color name="indicatorSectionSelected">#ff8ad930</color>
+    <color name="indicatorSectionUnSelected">@color/white10</color>
+    <color name="link_text_material_dark">@color/material_deep_teal_200</color>
+    <color name="link_text_material_light">@color/material_deep_teal_500</color>
+    <color name="matchStatsGreen">#cc45de75</color>
+    <color name="matchStatsGreenLight">#ccb7d417</color>
+    <color name="matchStatsRed">#ccea234d</color>
+    <color name="matchStatsYellow">#ccf7b906</color>
+    <color name="material_blue_grey_800">#ff37474f</color>
+    <color name="material_blue_grey_900">#ff263238</color>
+    <color name="material_blue_grey_950">#ff21272b</color>
+    <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="material_deep_teal_500">#ff009688</color>
+    <color name="md_btn_selected">#33969696</color>
+    <color name="md_btn_selected_dark">#40cbcbcb</color>
+    <color name="md_divider_black">#10000000</color>
+    <color name="md_divider_white">#10ffffff</color>
+    <color name="md_edittext_error">#ffdd2c00</color>
+    <color name="md_material_blue_600">#ff1e88e5</color>
+    <color name="md_material_blue_800">#ff1565c0</color>
+    <color name="pagerIndicator">#ffd8eb10</color>
+    <color name="pool_item_default_background">@android:color/transparent</color>
+    <color name="pool_item_expanded_background">#2dffffff</color>
+    <color name="pool_label_blue">#ff508ab6</color>
+    <color name="pool_label_green">#ff89a32c</color>
+    <color name="pool_label_pink">#ff982a6d</color>
+    <color name="pool_label_yellow">#ffad8f1d</color>
+    <color name="primary">#ff3f51b5</color>
+    <color name="primary_dark">#ff001e37</color>
+    <color name="primary_dark_material_dark">#ff000000</color>
+    <color name="primary_dark_material_light">#ff757575</color>
+    <color name="primary_light">#ff9fa8da</color>
+    <color name="primary_material_dark">#ff212121</color>
+    <color name="primary_material_light">#ffefefef</color>
+    <color name="primary_text">#ff212121</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="primary_text_disabled_material_dark">#4dffffff</color>
+    <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="ripple_material_dark">#4dffffff</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="rwc_dark_blue">#ff07063d</color>
+    <color name="rwc_gray">#ff777b7e</color>
+    <color name="rwc_gray_text">#ff777b7e</color>
+    <color name="rwc_rose">#ffed2b75</color>
+    <color name="rwc_rose_dark">#ffbf215d</color>
+    <color name="rwc_rose_disabled">#88ed2b75</color>
+    <color name="secondary_text">#ff727272</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+    <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="social_chart_blue">#ff005598</color>
+    <color name="social_chart_gray">#ff777b7e</color>
+    <color name="social_chart_grid_line">#ffb6bcc1</color>
+    <color name="social_hub_background">#ffdbe0e6</color>
+    <color name="social_item_selected">#ffebebeb</color>
+    <color name="social_link">#ff155495</color>
+    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
+    <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="trivia_dark_blue">#ff0f083d</color>
+    <color name="trophyTourEventCoinToss">#ff0f9954</color>
+    <color name="trophyTourEventNonPublic">#ff006eb9</color>
+    <color name="trophyTourEventPublic">#ffec2b75</color>
+    <color name="white10">#19ffffff</color>
+    <color name="white20">#33ffffff</color>
+    <color name="white40">#66ffffff</color>
+    <color name="white72">#b8ffffff</color>
+    <color name="white85">#d8ffffff</color>
+    <color name="white98">#f9ffffff</color>
+
+
+    <color name="bright_pink">#FF007F</color>
+    <color name="r_red">#FF0000</color>
+    <color name="orange">#FF7F00</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+
+    <array name="rainbow">
+        <item>@color/bright_pink</item>
+        <item>@color/r_red</item>
+        <item>@color/orange</item>
+        <item>@color/yellow</item>
+        <item>@color/chartreuse</item>
+        <item>@color/green</item>
+        <item>@color/spring_green</item>
+        <item>@color/cyan</item>
+        <item>@color/azure</item>
+        <item>@color/blue</item>
+        <item>@color/violet</item>
+        <item>@color/magenta</item>
+    </array>
+
+    <color name="username0">#e21400</color>
+    <color name="username1">#91580f</color>
+    <color name="username2">#f8a700</color>
+    <color name="username3">#f78b00</color>
+    <color name="username4">#58dc00</color>
+    <color name="username5">#287b00</color>
+    <color name="username6">#a8f07a</color>
+    <color name="username7">#4ae8c4</color>
+    <color name="username8">#3b88eb</color>
+    <color name="username9">#3824aa</color>
+    <color name="username10">#a700ff</color>
+    <color name="username11">#d300e7</color>
+
+    <array name="username_colors">
+        <item>@color/username0</item>
+        <item>@color/username1</item>
+        <item>@color/username2</item>
+        <item>@color/username3</item>
+        <item>@color/username4</item>
+        <item>@color/username5</item>
+        <item>@color/username6</item>
+        <item>@color/username7</item>
+        <item>@color/username8</item>
+        <item>@color/username9</item>
+        <item>@color/username10</item>
+        <item>@color/username11</item>
+    </array>
+
+
+    <!-- morphing button -->
+    <color name="mb_white">#ffffff</color>
+    <color name="mb_default">#e6e6e6</color>
+    <color name="mb_default_dark">#a1a1a1</color>
+    <color name="mb_blue">#ff0099cc</color>
+    <color name="mb_blue_dark">#ff00719b</color>
+    <color name="mb_purple">#ffaa66cc</color>
+    <color name="mb_purple_dark">#ff8855aa</color>
+    <color name="mb_green">#ff99cc00</color>
+    <color name="mb_green_dark">#ff6d9b00</color>
+    <color name="mb_red">#ffff4444</color>
+    <color name="mb_red_dark">#ffcd3a3a</color>
+    <color name="mb_gray">#ffdedede</color>
+    <color name="black">#2b7b2a</color>
+
+</resources>
+
+
+    <!--
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00
+    -->

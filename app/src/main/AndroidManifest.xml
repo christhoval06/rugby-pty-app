@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.christhoval.rugbypty">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    
+    <permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".RugbyPTY"
+        android:allowBackup="true"
+        android:configChanges="locale"
+        android:fullBackupContent="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+
+                <!-- Accepts URIs that begin with "rugbypty://news” -->
+                <data
+                    android:host="@string/app_host"
+                    android:scheme="@string/app_scheme" />
+
+                <!-- Accepts URIs that begin with "http://rugbypty.com/news/post” -->
+                <data
+                    android:host="@string/web_host"
+                    android:pathPrefix="@string/web_news_path"
+                    android:scheme="@string/web_scheme" />
+                <!-- note that the leading "/" is required for pathPrefix-->
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+            </intent-filter>
+
+        </activity>
+        <!-- [START firebase_service] -->
+        <service android:name=".firebase.MyFirebaseMessagingService">
+            <intent-filter android:icon="@drawable/ic_stat_ic_notification">
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <!-- [START firebase_iid_service] -->
+        <service android:name=".firebase.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_iid_service] -->
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <!--
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="@string/data_base_name" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="@integer/data_base_version" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="@string/data_base_models" />
+
+            -->
+
+    </application>
+
+</manifest>
+
+    <!--
+        http://www.flaticon.com
+
+        https://inthecheesefactory.com/blog/fragment-state-saving-best-practices/en
+        http://www.hermosaprogramacion.com/2015/09/aplicacion-android-con-navigation-drawer-y-tabs/
+
+
+        keytool -exportcert -list -v \ -alias androiddebugkey -keystore ~/.android/debug.keystore
+
+        keytool -exportcert -list -v -alias christhoval -keystore ~/Documents/dev/android/RugbyPTY/rugbypty
+        c70$180T
+
+        adb shell am start -a android.intent.action.VIEW -d "http://rugbypty.com/" app.christhoval.rugbypty
+    -->
+
+<!-- http://www.jsonschema2pojo.org -->
+    <!-- http://www.jsoneditoronline.org -->
+    <!-- http://jsonschema.net/#/ -->

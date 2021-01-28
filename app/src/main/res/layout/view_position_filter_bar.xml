@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/positions_filter_bar"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/filter_bar_height"
+    android:layout_gravity="top"
+    android:background="@color/filter_bar_background"
+    android:elevation="1dp"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp"
+    android:paddingEnd="1dp"
+    android:paddingStart="1dp"
+    android:paddingTop="4dp"
+    android:theme="@style/AppTheme.Bar.Filter"
+    android:weightSum="2"
+    tools:targetApi="lollipop">
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/sp_tournament"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:entries="@array/tournaments"
+        android:spinnerMode="dropdown" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/filter_bar_divider" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/sp_orderby"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.7"
+        android:entries="@array/position_order"
+        android:spinnerMode="dropdown" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/filter_bar_divider" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/sp_orderby_direction"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:entries="@array/position_order_direction"
+        android:spinnerMode="dropdown" />
+
+</LinearLayout>

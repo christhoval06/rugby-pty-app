@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Categories -->
+    <string-array name="categories" translatable="false">
+        <item>all</item>
+        <item>citas</item>
+        <item>coaching</item>
+        <item>history</item>
+        <item>lpr</item>
+        <item>panama</item>
+        <item>pensamientos</item>
+        <item>rugby</item>
+        <item>upr</item>
+    </string-array>
+
+    <string-array name="news_order" translatable="false">
+        <item>Most Recent</item>
+        <item>Oldest</item>
+        <item>Title</item>
+        <item>Date</item>
+    </string-array>
+
+    <!-- Tournaments -->
+    <string-array name="tournaments" translatable="false">
+        <item>Masculino X</item>
+        <item>Femenino 7 2016</item>
+        <item>Rugby XV 2016</item>
+        <item>Rugby 7s 2016</item>
+        <item>Pre Tigres 2016</item>
+    </string-array>
+
+    <!-- teams -->
+    <string-array name="teams" translatable="false">
+        <item>Titanes</item>
+        <item>Corsarios</item>
+        <item>Dragones</item>
+        <item>Golden Boys</item>
+        <item>Panama 7s</item>
+    </string-array>
+
+    <string-array name="position_order" translatable="false">
+        <item>Points</item>
+        <item>Tries</item>
+        <item>Conversion</item>
+        <item>Name</item>
+        <item>Game Played</item>
+        <item>Game Won</item>
+        <item>Game Lost</item>
+        <item>Forfeit</item>
+    </string-array>
+
+    <string-array name="position_order_direction" translatable="false">
+        <item>ASC</item>
+        <item>DESC</item>
+    </string-array>
+</resources>

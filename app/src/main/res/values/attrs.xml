@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleButton">
+        <attr name="cb_color" format="color" />
+        <attr name="cb_pressedRingWidth" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="livebutton">
+        <attr name="pressedHeight" format="dimension" />
+        <attr name="normalHeight" format="dimension" />
+        <attr name="backgroundColor" format="color" />
+        <attr name="shadowColor" format="color" />
+        <attr name="corners" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MorphingButton">
+        <attr name="mb_color" format="color" />
+        <attr name="mb_colorDark" format="color" />
+        <attr name="mb_cornerRadius" format="dimension" />
+        <attr name="mb_duration" format="integer" />
+        <attr name="mb_width" format="dimension" />
+        <attr name="mb_height" format="dimension" />
+        <attr name="mb_icon" format="integer" />
+        <attr name="mb_morph" format="boolean" />
+    </declare-styleable>
+</resources>

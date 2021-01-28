@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="0dp"
+    app:cardMaxElevation="0dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e0dfe7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/infoSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Team A"
+            android:textAppearance="@style/TextAppearance.RobotoRegular"
+            android:textColor="#B306000c"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:weightSum="3.0">
+
+            <LinearLayout
+                android:id="@+id/viewTeamA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:orientation="vertical"
+                android:paddingBottom="13dp"
+                android:paddingTop="5dp">
+
+                <ImageView
+                    android:id="@+id/teamALogo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/logo_rugbypty" />
+
+                <TextView
+                    android:id="@+id/teamAName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Team A"
+                    android:textAppearance="@style/TextAppearance.RobotoLight"
+                    android:textColor="#B306000c"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.4">
+
+                <LinearLayout
+                    android:id="@+id/noPlayed"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingBottom="13dp"
+                    android:paddingTop="32dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/startDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="18 sep"
+                        android:textAppearance="@style/TextAppearance.RobotoBlack"
+                        android:textColor="#B306000c"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/starTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="10:00 am"
+                        android:textAppearance="@style/TextAppearance.RobotoLight"
+                        android:textColor="#B306000c"
+                        android:textSize="12sp" />
+
+                    <View
+                        android:layout_width="14dp"
+                        android:layout_height="2dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#909090" />
+
+                    <TextView
+                        android:id="@+id/estadio"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="El Infierno"
+                        android:textAppearance="@style/TextAppearance.RobotoLight"
+                        android:textColor="#B306000c"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/wasPlayed"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingBottom="13dp"
+                    android:paddingTop="32dp"
+                    android:visibility="visible">
+
+
+                    <TextView
+                        android:id="@+id/score"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="23 - 45"
+                        android:textAppearance="@style/TextAppearance.RobotoBlack"
+                        android:textColor="#B306000c"
+                        android:textSize="33sp" />
+
+                    <View
+                        android:id="@+id/divider"
+                        android:layout_width="14dp"
+                        android:layout_height="2dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginTop="15dp"
+                        android:background="#ec2b75" />
+
+                    <TextView
+                        android:id="@+id/playedTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="2dp"
+                        android:text="10:00 am"
+                        android:textAppearance="@style/TextAppearance.RobotoLight"
+                        android:textColor="#B306000c"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/viewTeamB"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:orientation="vertical"
+                android:paddingBottom="13dp"
+                android:paddingTop="5dp">
+
+                <ImageView
+                    android:id="@+id/teamBLogo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside"
+                    app:srcCompat="@drawable/logo_rugbypty" />
+
+                <TextView
+                    android:id="@+id/teamBName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Team B"
+                    android:textAppearance="@style/TextAppearance.RobotoLight"
+                    android:textColor="#B306000c"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group_app"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_menu_news"
+            android:title="@string/drawer_news" />
+
+        <item
+            android:id="@+id/nav_rankings"
+            android:icon="@drawable/ic_menu_rankings"
+            android:title="@string/drawer_positions" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_menu_calendar"
+            android:title="@string/drawer_fixtures" />
+    </group>
+
+    <group
+        android:id="@+id/group_settings"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/action_settings" />
+
+        <item
+            android:id="@+id/nav_suggestions"
+            android:icon="@drawable/ic_menu_suggestions"
+            android:title="@string/drawer_suggestions" />
+
+        <item
+            android:id="@+id/nav_faqs"
+            android:icon="@drawable/ic_menu_faqs"
+            android:title="@string/drawer_faqs" />
+
+        <item
+            android:id="@+id/nav_aboutme"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/drawer_about" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/drawer_notification"
+            android:visible="false" />
+    </group>
+
+    <item
+        android:title="@string/drawer_socials"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/ic_menu_facebook"
+                android:title="@string/drawer_facebook" />
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/ic_menu_instagram"
+                android:title="@string/drawer_instagram" />
+        </menu>
+    </item>
+
+    <item
+        android:title="@string/drawer_notification"
+        android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_push_rugby"
+                android:title="@string/drawer_positions"
+                app:actionLayout="@layout/action_view_switch" />
+            <item
+                android:id="@+id/nav_push_news"
+                android:title="@string/drawer_news"
+                app:actionLayout="@layout/action_view_switch" />
+            <item
+                android:id="@+id/nav_push_positions"
+                android:title="@string/drawer_positions"
+                app:actionLayout="@layout/action_view_switch" />
+            <item
+                android:id="@+id/nav_push_chat"
+                android:title="@string/drawer_notification"
+                app:actionLayout="@layout/action_view_switch" />
+        </menu>
+    </item>
+</menu>
+
+    <!-- http://a-student.github.io/SvgToVectorDrawableConverter.Web/ -->

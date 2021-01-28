@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "360026523690",
+    "firebase_url": "https://rugbypty.firebaseio.com",
+    "project_id": "rugbypty",
+    "storage_bucket": "rugbypty.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360026523690:android:d3954d0e5fe988f0",
+        "android_client_info": {
+          "package_name": "app.christhoval.rugbypty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360026523690-i3jqa3fqtde3ec02p6qia1ap5g8o0hmq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.christhoval.rugbypty",
+            "certificate_hash": "E233316C09D1577A4C771AD25A0C540C473F0AF2"
+          }
+        },
+        {
+          "client_id": "360026523690-sg2r142els74on2hptv2idrm913a3i9i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.christhoval.rugbypty",
+            "certificate_hash": "7F56BA8AE6391F0AC62C3D927F8E8DF2CF968E77"
+          }
+        },
+        {
+          "client_id": "360026523690-n8dop051foc187uhhl1sgira6hngogto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE6SdWvu3PZAfj57JsWA0eq0g7HoSpnRc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360026523690-n8dop051foc187uhhl1sgira6hngogto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
